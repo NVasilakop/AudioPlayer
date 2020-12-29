@@ -1,0 +1,38 @@
+doctype html
+html(lang='en')
+  head
+    title Hello, World!
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+  style
+        include ./assets/scss/first.scss
+  script
+        include ./index.js   
+  body
+header#header
+  h1#title
+  #controls
+    .btn#btn-wave
+      i.fa.fa-exchange
+    .btn#btn-lights
+      i.fa.fa-sun-o
+    .btn#btn-prev
+      i.fa.fa-backward
+    .btn#btn-play
+      i.fa.fa-play
+    .btn#btn-next
+      i.fa.fa-forward
+    .btn#btn-volume
+      i.fa.fa-volume-up
+#background
+#loader
+  #spinner
+  h2#loading-text Loading...
+canvas#glow-layer
+canvas#canvas
+audio#audio
+#progress-bar
+a.make-google-happy-button Click to Start
+a#codepen-link(href='https://www.codepen.io/seanfree' target='_blank')
+script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
